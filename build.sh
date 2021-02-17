@@ -25,5 +25,5 @@ echo "loginsuccess: building docker image"
 docker build  -t "dhiraj-repo" .
 #docker tag "sagemaker-demo" ${fullname}
 docker tag "dhiraj-repo" ${fullname}
-echo "Pushing images"
+echo "Pushing imagess"
 docker push ${fullname}
